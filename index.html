@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        btback: "#0033FF"
+                    }
+                }
+            }
+        }
+    </script>
+    <title>honwork</title>
+</head>
+
+<body class="bg-[#121214]">
+
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="/img/loh.png" class="h-8" alt="" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+                    started</button>
+                <button data-collapse-toggle="navbar-cta" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="bg-[url('/img/IMAGE.png')] bg-no-repeat bg-cover">
+        <div class="xl:container mx-auto scroll-pl-20 py-[200px] text-white">
+            <h2 class="text-[72px] leading-[72px] w-[30%] mb-[2rem]">
+                Step into the producers playground
+            </h2>
+
+            <p class="text-[20px] leading-[24px] w-[32%] mb-[3.5rem]">Explore the worlds best sample library and an
+                unmatched marketplace of plugins and DAWs.</p>
+
+            <button class="py-[10px] px-[1rem] bg-btback rounded-[8px]">Try free</button>
+        </div>
+
+    </main>
+
+    <section>
+        <div class="xl:container text-white">
+            <h2 class="text-center text-[28px] leading-[36px] mb-[2rem]">
+                About Catalog
+            </h2>
+            <div class="flex items-center justify-between">
+                <div class="w-[45%] ml-[3rem]">
+                    <h3>A catalog so deep, it’s dangerous.</h3>
+                    <p>Expertly created and curated samples <br> in any style imaginable. Start swimming in sound.</p>
+                    <button class="py-[0.5rem] px-[1rem] bg-btback rounded-[8px]">Explore</button>
+                </div>
+                <div class="w-[50%]">
+                    <img src="./img/IMAGE (1).png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-between text-white">
+            <div class="w-[50%]">
+                <img src="./img/pop.png" alt="">
+            </div>
+
+            <div class="w-[45%] ml-[3rem]">
+                <h3>A workflow that actually flows.</h3>
+                <p>Preview samples in your track’s key and tempo, drag and drop sounds into your DAW, and organize your
+                    favorite samples, MIDI and presets in one place.</p>
+                <button class="py-[0.5rem] px-[1rem] bg-btback rounded-[8px]">Workflow</button>
+            </div>
+        </div>
+    </section>
+    <div class="xl:container flex flex-row justify-between items-center px-5 m-auto">
+        <div class="bg-white w-[450px] h-[] flex flex-col justify-center items-center py-10 rounded-[10px] px-10">
+            <img class="img mb-5" src="/img/re1.png" alt="">
+            <h4 class="text-start w-[250px]">I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a bit of
+                inspiration.</h4>
+        </div>
+        <div class="bg-white w-[450px] h-[] flex flex-col justify-center items-center py-10 rounded-[10px] px-10">
+            <img class="img mb-5" src="/img/re2.png" alt="">
+            <h4 class="text-start w-[250px]">I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a bit of
+                inspiration.</h4>
+        </div>
+        <div class="bg-white w-[450px] h-[] flex flex-col justify-center items-center py-10 rounded-[10px] px-10">
+            <img class="img mb-5" src="/img/re3.png" alt="">
+            <h4 class="text-start w-[250px]">I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a bit of
+                inspiration.</h4>
+        </div>
+    </div>
+    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800 w-[98%]">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Contact</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline">Help</a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
